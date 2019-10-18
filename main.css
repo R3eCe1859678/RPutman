@@ -1,23 +1,130 @@
-.topnav {
-  background-color: #333;
-  overflow: hidden;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+display:block;
+padding:10px;
+background-color:#ffffff;
 }
 
-.topnav a {
+li {
+  display: inline;
+}
+li {
   float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
 }
 
-.topnav a:hover {
-  background-color: #ddd;
+}
+
+li a:hover {
+  background-color: #00000;
   color: black;
 }
 
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+h1 {
+  text-align: center;
 }
+li {
+  text-align: center;
+  border-bottom: 1px solid #00000;
+}
+ul {
+  border: 1px solid #00000;
+}
+p {
+  text-align: center;
+}
+h1 {
+  text-decoration: underline;
+}
+img {
+  text-align: center;
+}
+
+.logo{
+	width:400px;
+	margin:auto;
+}
+.image{ 
+	margin:auto;
+	width:550;
+	text-align: center;
+	
+}
+.nav{
+		width:550px;
+	margin:auto;
+}
+
+
+
+}
+	
+.fix{
+	clear:both;
+}
+ 
+	#cont1
+	{
+		float: left;
+		width: 125%;
+		margin-left: 3%;
+		display: inline;
+		background-color:white;
+		text-align: center; 
+	}
+		
+	
+		
+	#footer
+	{
+		clear: both;
+		background-color:darkorange;
+		float: right
+	} 
+
+	h2, p
+	{
+		margin-left: 6px;
+		margin-right: 6px;
+	} 
+	
+	#bluetext {color:blue;font-size:x-large}
+	#whitetext {color:white; font-size:xx-large}
+	
+	#textId 
+	{
+		color:white; 
+		font-size:small;
+		margin-left:6px;
+		margin-right:6px;
+	}
+	
+	#fr
+	{
+		float : right
+	}
+	
+	#fl
+	{
+		float : left
+	}
+	
+	p.fc
+	{
+		font-size: 26px;
+	}
+	
+.dropdown{
+margin:auto;
+width:200;
+}
+.LoQ{
+margin:auto;
+width:200;
+}
+.Af{
+margin:auto;
+width:200;
